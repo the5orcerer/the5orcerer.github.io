@@ -90,7 +90,7 @@ const CONFIG = {
     'Flask',
     'Django',
     'Bash',
-    'Bootstrap'
+    'Bootstrap',
     'Git',
     'Docker',
     'CSS',
