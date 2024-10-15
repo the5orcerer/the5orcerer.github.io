@@ -94,7 +94,7 @@ const CONFIG = {
     'Git',
     'Docker',
     'CSS',
-    'Tailwind',
+    'Tailwind'
   ],
   experiences: [
     {
