@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'A highly reliable passive subdomain enumerator!',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://i.pinimg.com/564x/e7/38/b5/e738b53bf15737fc53b53b88b79cbeb7.jpg',
           link: 'https://github.com/users/the5orcerer/projects/1',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Fast ftp connection and FTPs takeover program with tons of threading.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAVRmwmAqobIVJ6FX9pdTRR6wh4prsFJuVww&s',
           link: 'https://github.com/users/the5orcerer/projects/2',
         },
       ],
@@ -132,7 +132,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'Journal Name',
       authors: 'Abu Hurayra',
-      link: 'https://example.com',
+      link: 'https://medium.com/@rootplinix/schr%C3%B6dingers-cat-randomness-and-why-predicting-it-could-wreck-the-internet-810a783b0d5d',
       description:
         'In our childhood—or rather, in the early learning stages of every great programmer—I’m pretty sure many of us built a simple game using our favorite programming language. A common one is a random number game, where the player inputs a number, and the program tries to match it with a randomly generated number. If it matches, you win; if not, you lose. But have you ever stopped to wonder—what is randomness? And what if randomness didn’t exist in computers? What would that mean for programs, games, and even cybersecurity?'  },
     {
@@ -140,14 +140,14 @@ const CONFIG = {
       conferenceName: '',
       journalName: '',
       authors: 'Abu Hurayra',
-      link: 'https://example.com',
+      link: 'https://medium.com/@rootplinix/the-methodology-of-manipulating-people-a-social-engineers-approach-8cbaf7b6c3f7',
       description:
         'I heard that Kevin D. Mitnick, the world’s most famous hacker and one of my inspirations, always identified himself not as a hacker but as a social engineer. One day, out of curiosity, I started thinking—what exactly is social engineering, and how could it be far more dangerous than other types of hacking? When I began to understand it and looked deeper under the hood, I was shocked. It’s not just a basic or regular concept; it’s far more dangerous than anyone might imagine.'  },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    username: 'rootplinix', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -163,7 +163,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
