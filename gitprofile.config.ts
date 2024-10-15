@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,43 +25,43 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['the5orcerer/Sushi'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Sushi',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A highly reliable passive subdomain enumerator!',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/users/the5orcerer/projects/1',
         },
         {
-          title: 'Project Name',
+          title: 'Flicker',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Fast ftp connection and FTPs takeover program with tons of threading.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/users/the5orcerer/projects/2',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'rootplinix.me',
+    description: 'Portfolio, Copied from my junkyeard!',
+    imageURL: 'https://ibb.co.com/QfXt9J9',
   },
   social: {
     linkedin: '',
     twitter: 'n30r0n',
     mastodon: '',
     researchGate: '',
-    facebook: '',
+    facebook: 'farmin67',
     instagram: '',
     reddit: '',
     threads: '',
@@ -69,7 +69,7 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'rootplinix',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
@@ -87,6 +87,10 @@ const CONFIG = {
     'Python',
     'PHP',
     'Node.js',
+    'Flask',
+    'Django',
+    'Bash',
+    'Bootstrap'
     'Git',
     'Docker',
     'CSS',
@@ -130,7 +134,7 @@ const CONFIG = {
       authors: 'Abu Hurayra',
       link: 'https://example.com',
       description:
-        ''  },
+        'In our childhood—or rather, in the early learning stages of every great programmer—I’m pretty sure many of us built a simple game using our favorite programming language. A common one is a random number game, where the player inputs a number, and the program tries to match it with a randomly generated number. If it matches, you win; if not, you lose. But have you ever stopped to wonder—what is randomness? And what if randomness didn’t exist in computers? What would that mean for programs, games, and even cybersecurity?'  },
     {
       title: 'Arbitrary Code into Our head',
       conferenceName: '',
@@ -138,7 +142,7 @@ const CONFIG = {
       authors: 'Abu Hurayra',
       link: 'https://example.com',
       description:
-        ''  },
+        'I heard that Kevin D. Mitnick, the world’s most famous hacker and one of my inspirations, always identified himself not as a hacker but as a social engineer. One day, out of curiosity, I started thinking—what exactly is social engineering, and how could it be far more dangerous than other types of hacking? When I began to understand it and looked deeper under the hood, I was shocked. It’s not just a basic or regular concept; it’s far more dangerous than anyone might imagine.'  },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
