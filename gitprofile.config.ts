@@ -130,7 +130,7 @@ const CONFIG = {
     {
       title: 'Randomness beyond the edge!',
       conferenceName: '',
-      journalName: 'Journal Name',
+      journalName: '',
       authors: 'Abu Hurayra',
       link: 'https://medium.com/@rootplinix/schr%C3%B6dingers-cat-randomness-and-why-predicting-it-could-wreck-the-internet-810a783b0d5d',
       description:
@@ -147,7 +147,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: '@rootplinix', // to hide blog section, keep it empty
+    username: 'rootplinix', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -174,7 +174,6 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark'
     ],
 
