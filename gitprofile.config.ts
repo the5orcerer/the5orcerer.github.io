@@ -61,8 +61,8 @@ const CONFIG = {
     twitter: 'n30r0n',
     mastodon: '',
     researchGate: '',
-    facebook: 'farmin67',
-    instagram: '',
+    facebook: '',
+    instagram: 'rootplinix',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -74,9 +74,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'rootplinix',
-    website: 'https://rootplinix.me',
+    website: '',
     phone: '',
-    email: 'the5orcerer@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
